@@ -1,0 +1,283 @@
+body{
+  
+    background-color: blue; /* For browsers that do not support gradients */
+     background-image: linear-gradient(to right, blue , white);
+   
+}
+
+   h1 {
+        font-family: "Sofia", sans-serif;
+        font-size: 30px;
+        margin-top: 50px;
+      }
+      ul{
+        margin-top: 30px;
+      }
+.box1{
+    width: 500px;
+    height:auto;
+    background-color:black;
+    border-radius: 20px;
+    margin-top: 250px;
+}
+.head{
+    
+font-family: 'Poppins';font-size: 30px;
+
+}
+.inputbox{
+    margin-right: 50px;
+    display:inline-block;
+    height: 30px;
+    width: 60%;
+    color: black;
+    border-color: darkblue;
+    border-radius: 20px;
+    border-width: 10px;
+    background-color:floralwhite;
+    margin-bottom: 30px;
+
+}
+#buttonbox{
+    border: none;
+    width: 60px;
+    margin-right: 10px;
+    height: 40px;
+    border-radius: 50px;
+    background-color:mediumpurple;
+}
+#buttonbox:hover{
+    
+    background-color:azure;
+}
+
+:placeholder-shown{
+    text-align: center;
+    font-style: italic;
+}
+.button{
+   margin-left: 63%;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    width: 70px;
+    height: 30px;
+    background-color:mediumpurple;
+    margin-bottom: 10px;
+    font-size: large;
+}
+.button:hover{
+    background-color: azure;
+}
+
+
+.lii{
+    font-family: 'Poppins';
+}
+
+
+@media screen and (max-width:450px){
+    
+    body{
+  
+        background-color: blue; /* For browsers that do not support gradients */
+         background-image: linear-gradient(to right, blue , white);
+         background-repeat: no-repeat;
+       
+    }
+    
+       h1 {
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+            margin-top: 50px;
+          }
+          ul{
+            margin-top: 30px;
+          }
+    .box1{
+        width: auto;
+        height:auto;
+        background-color:black;
+        border-radius: 20px;
+        margin-top: 250px;
+    }
+    .head{
+        
+    font-family: 'Poppins';font-size: 30px;
+    
+    }
+    .inputbox{
+        margin-right: 50px;
+        display:inline-block;
+        height: 30px;
+        width: 50%;
+        color: black;
+        border-color: darkblue;
+        border-radius: 20px;
+        border-width: 10px;
+        background-color:floralwhite;
+        margin-bottom: 30px;
+    
+    }
+    #buttonbox{
+        border: none;
+        width: 60px;
+        margin-right: 10px;
+        height: 40px;
+        border-radius: 50px;
+        background-color:mediumpurple;
+    }
+    #buttonbox:hover{
+        
+        background-color:azure;
+    }
+    
+    :placeholder-shown{
+        text-align: center;
+        font-style: italic;
+    }
+    .button{
+        margin-left: 40%;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Poppins';
+        width: 70px;
+        height: 30px;
+        background-color:mediumpurple;
+        margin-bottom: 10px;
+        font-size: large;
+    }
+    .button:hover{
+        background-color: azure;
+    }
+    
+    
+    .lii{
+        font-family: 'Poppins';
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+    body{
+        background-color: blue;
+        background-image: linear-gradient(to right, blue , white);
+        background-repeat: no-repeat;
+    }
+    
+    h1 {
+        font-family: "Sofia", sans-serif;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    
+    ul{
+        margin-top: 30px;
+    }
+    
+    .box1{
+        width: auto;
+        height: auto;
+        background-color: black;
+        border-radius: 20px;
+        margin-top: 250px;
+    }
+    
+    .head{
+        font-family: 'Poppins';
+        font-size: 30px;
+    }
+    
+    .inputbox{
+        margin-right: 50px;
+        display: inline-block;
+        height: 30px;
+        width: 50%;
+        color: black;
+        border-color: darkblue;
+        border-radius: 20px;
+        border-width: 10px;
+        background-color: floralwhite;
+        margin-bottom: 30px;
+    }
+    
+    #buttonbox{
+        border: none;
+        width: 60px;
+        margin-right: 10px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: mediumpurple;
+    }
+    
+    #buttonbox:hover{
+        background-color: azure;
+    }
+    
+    :placeholder-shown{
+        text-align: center;
+        font-style: italic;
+    }
+    
+    .button{
+        margin-left: 40%;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Poppins';
+        width: 70px;
+        height: 30px;
+        background-color: mediumpurple;
+        margin-bottom: 10px;
+        font-size: large;
+    }
+    
+    .button:hover{
+        background-color: azure;
+    }
+    
+    .lii{
+        font-family: 'Poppins';
+    }
+}
+
+/* New media query for even smaller screens */
+@media screen and (max-width: 350px){
+    .box1{
+        margin-top: 150px;
+        padding: 10px;
+    }
+    
+    .head{
+        font-size: 24px;
+    }
+    
+    .inputbox{
+        width: 70%;
+        margin-right: 20px;
+    }
+    
+    #buttonbox{
+        width: 50px;
+        height: 35px;
+    }
+    
+    .button{
+        margin-left: 30%;
+        width: 60px;
+        height: 25px;
+        font-size: medium;
+    }
+    
+    h1 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    
+    ul{
+        padding-left: 20px;
+    }
+    
+    .lii{
+        font-size: 14px;
+    }
+}
